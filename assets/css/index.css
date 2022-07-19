@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.container{
+    width: 1270px;
+    margin: 0 auto;
+}
+.banner{
+    background-color: rgba(0, 0, 0, 0.921);
+    border-radius: 20px;
+    margin-top: 3rem;
+
+}
+.banner-container{
+    display: flex;
+    padding-left: 7rem;
+    padding-right: 5rem;
+    padding-top: 2rem;
+}
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    color: white;
+}
+.text h1{
+    font-size: 5rem;
+}
+.text p{
+    font-size: 17px;
+    margin: 20px 0;
+    line-height: 1.5em;
+}
+.text button{
+    font-size: 1rem;
+    background-color: red;
+    color: white;
+    padding: 0.6rem 1rem;
+}
+.img{
+    display: flex;
+    /* justify-content: center; */
+    width: 50%;
+    height: 38rem;
+}
+.img img{
+   height: 100%;
+}
+.main-content{
+    display: flex;
+    margin-top: 5rem;
+
+}
+.sidebar{
+    width: 20rem;
+    margin-right: 1rem;
+}
+.sidebar-button{
+    border-radius: 7px;
+    background-color: black;
+}
+.sidebar-button > .link{
+    display: block;
+}
+.content{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 1rem;
+}
+.blog-image img{
+    width: 100%;
+}
+.content > .blog{
+    border-radius: 7px;
+    border: 1px solid #ddd;
+}
+.blog-detiles{
+    padding: 1rem;
+}
+footer{
+    background-color: black;
+}
