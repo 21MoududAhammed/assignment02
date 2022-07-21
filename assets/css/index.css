@@ -66,7 +66,7 @@
   height: 250px;
   width: 300px;
   margin-right: 20px;
-  background-color: lightslategray;
+  background-color: rgba(0, 0, 0, 0.921);
   border-radius: 5px;
 }
 .sidebar-button {
